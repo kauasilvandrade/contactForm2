@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+body {
+  /* background-image: linear-gradient(to right, #ee1c6f, #242c99); */
+  font-family: Montserrat, sans-serif;
+}
