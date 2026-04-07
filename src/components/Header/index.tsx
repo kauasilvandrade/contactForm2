@@ -14,7 +14,7 @@ export function Header() {
   }
 
   return (
-    <header className="w-screen bg-white flex justify-center py-4 relative">
+    <header className="w-screen bg-white flex justify-center py-6 relative">
       <div className="w-[340px] flex justify-between">
         <a href="#">
           <img src={Logo} alt="Logo" className="h-8" />
@@ -28,7 +28,7 @@ export function Header() {
       {/* Overlay */}
       {menuOpen && (
         <div
-          className="fixed inset-0 bg-red-800 z-10 cursor-pointer"
+          className="fixed inset-0 bg-black/50 z-10 cursor-pointer"
           onClick={closeMenu}
         />
       )}
