@@ -7,7 +7,7 @@ import { Mail } from "lucide-react";
 
 export default function CardsBox() {
   return (
-    <div className="flex flex-col gap-5 relative -top-40">
+    <section className="flex flex-col gap-5 absolute -top-40 min-[575px]:flex-wrap min-[575px]:flex-row lg:flex-row">
       <Card
         icon={<MapPin size={70} strokeWidth={1} color="#742499" />}
         title="Nosso escritório principal"
@@ -28,6 +28,6 @@ export default function CardsBox() {
         title="E-mail"
         description="hello@theme.com"
       />
-    </div>
+    </section>
   );
 }

@@ -5,8 +5,8 @@ import LinkedinIcon from "./../../assets/linkedinIcon.svg";
 
 export function Contact() {
   return (
-    <div className="text-white flex flex-col gap-6">
-      <h2 className="text-3xl ">Entrar em contato</h2>
+    <section className="text-white flex flex-col gap-6 sm:pt-[450px] sm:w-[635px] sm:flex-1 md:w-[760px] lg:pt-[200px]">
+      <h2 className="text-3xl min-[575px]:text-5xl">Entrar em contato</h2>
 
       <p className="text-[18px]/9 italic">
         <strong>
@@ -27,6 +27,6 @@ export function Contact() {
         <img src={InstagramIcon} alt="Instagram Icon" className="h-10 w-10" />
         <img src={LinkedinIcon} alt="Linkedin Icon" className="h-10 w-10" />
       </div>
-    </div>
+    </section>
   );
 }

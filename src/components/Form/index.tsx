@@ -4,7 +4,7 @@ import { Textarea } from "./components/Textarea";
 
 export function Form() {
   return (
-    <form className="pb-16">
+    <form className="pt-[900px] pb-16 min-[575px]:pt-[450px] sm:flex-1 lg:pt-[200px]">
       <Input
         label="Email"
         type="email"

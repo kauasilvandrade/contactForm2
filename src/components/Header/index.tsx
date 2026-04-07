@@ -14,8 +14,8 @@ export function Header() {
   }
 
   return (
-    <header className="w-screen bg-white flex justify-center py-6 relative">
-      <div className="w-[340px] flex justify-between">
+    <header className="w-full bg-white flex justify-center py-6 relative">
+      <div className="w-[340px] min-[575px]:w-[570px] sm:w-[635px] md:w-[760px] lg:w-[1020px] xl:w-[1280px]  flex justify-between">
         <a href="#">
           <img src={Logo} alt="Logo" className="h-8" />
         </a>
