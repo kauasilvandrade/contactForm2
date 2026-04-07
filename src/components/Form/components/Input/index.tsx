@@ -15,7 +15,8 @@ export function Input({ type = "text", label, placeholder, ...rest }: Props) {
         id={label}
         {...rest}
         placeholder={placeholder}
-        className="text-base text-white p-4 border-b-2 border-white outline-none placeholder:text-gray-400"
+        className="text-base text-white p-4 border-b-2 border-white outline-none placeholder:text-gray-400
+        focus-within:border-[#900e42]"
       />
     </div>
   );

@@ -21,7 +21,7 @@ export function Header() {
         </a>
 
         <button onClick={toggleMenu} className="cursor-pointer">
-          <MenuIcon size={30} />
+          <MenuIcon size={30} className="hover:text-[#d71060]" />
         </button>
       </div>
 

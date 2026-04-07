@@ -7,11 +7,12 @@ export function Footer() {
           nullam nunc justo sagittis suscipit ultrices.
         </p>
         <p className="text-sm/relaxed">
-          <a href="#" className="underline">
+          <a href="#" className="hover:underline">
             Website Templates{" "}
           </a>
           criado com
-          <a href="#" className="underline">
+          <a href="#" className="hover:underline">
+            {" "}
             Website Builder Software
           </a>
           .

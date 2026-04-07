@@ -1,7 +1,9 @@
+import type React from "react";
+
 type Props = {
   icon: React.ReactNode;
   title: string;
-  description: string;
+  description: React.ReactNode;
 };
 
 export function Card({ icon, title, description }: Props) {

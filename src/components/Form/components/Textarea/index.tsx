@@ -14,7 +14,7 @@ export function Textarea({ label, placeholder, ...rest }: Props) {
         id={label}
         placeholder={placeholder}
         {...rest}
-        className="text-base text-white p-4 border-b-2 border-white outline-none placeholder:text-gray-400"
+        className="text-base text-white p-4 border-b-2 border-white outline-none placeholder:text-gray-400 focus-within:border-[#900e42] resize-none"
       ></textarea>
     </div>
   );

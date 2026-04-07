@@ -26,7 +26,14 @@ export default function CardsBox() {
       <Card
         icon={<Mail size={70} strokeWidth={1} color="#742499" />}
         title="E-mail"
-        description="hello@theme.com"
+        description={
+          <a
+            href="mailto:hello@theme.com"
+            className="text-purple-700 hover:underline"
+          >
+            hello@theme.com
+          </a>
+        }
       />
     </section>
   );
