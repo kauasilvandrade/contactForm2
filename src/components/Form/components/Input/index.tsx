@@ -6,7 +6,7 @@ type Props = React.ComponentProps<"input"> & {
 
 export function Input({ type = "text", label, placeholder, ...rest }: Props) {
   return (
-    <div className="flex flex-col mb-5 ">
+    <div className="flex flex-col mb-5">
       <label htmlFor={label} className="text-white font-semibold">
         {label}
       </label>
