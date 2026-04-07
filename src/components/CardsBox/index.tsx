@@ -5,7 +5,7 @@ import { MapPin } from "lucide-react";
 import { Speech } from "lucide-react";
 import { Mail } from "lucide-react";
 
-export default function CardsBox() {
+export function CardsBox() {
   return (
     <section className="flex flex-col gap-5 absolute -top-40 min-[575px]:flex-wrap min-[575px]:flex-row lg:flex-row">
       <Card

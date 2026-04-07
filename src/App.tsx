@@ -1,8 +1,6 @@
-import { Card } from "./components/Card";
-
 import { Header } from "./components/Header";
 import { Form } from "./components/Form";
-import CardsBox from "./components/CardsBox";
+import { CardsBox } from "./components/CardsBox";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
